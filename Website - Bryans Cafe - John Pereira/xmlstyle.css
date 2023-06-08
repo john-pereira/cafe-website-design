@@ -1,0 +1,40 @@
+/* Style for the <about_page> element */
+about_page {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style for the <company_info> element */
+  company_info {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the <history>, <mission>, and <vision> elements */
+  * {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+  /* Style for the element tags */
+  *:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #333;
+    border-bottom: 5px solid transparent;
+  }
+  
+  /* Style for the last element in a branch */
+  *:last-child:before {
+    display: none;
+  }
+  

@@ -1,0 +1,50 @@
+<!DOCTYPE menu_page [
+    <!ELEMENT menu_page (main_section)>
+    <!ELEMENT main_section (food_item+)>
+    <!ELEMENT food_item (name, price)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+]>
+
+<?xml-stylesheet type="text/css" href="xmlstyle.css"?>
+
+<menu_page>
+    <main_section>
+        <food_item>
+            <name>Beetroot and feta salad</name>
+            <price>$15.00</price>
+        </food_item>
+         <food_item>
+            <name>Sourdough Rye Sandwich</name>
+            <price>$18.00</price>
+        </food_item>
+         <food_item>
+            <name>Spinach Pie and Salad</name>
+            <price>$20.00</price>
+        </food_item>
+        <food_item>
+            <name>Small Coffee</name>
+            <price>$3.50</price>
+        </food_item>
+        <food_item>
+            <name>Regular Coffee</name>
+            <price>$4.00</price>
+        </food_item>
+        <food_item>
+            <name>Large Coffee</name>
+            <price>$4.50</price>
+        </food_item>
+        <food_item>
+            <name>Soda</name>
+            <price>$3.00</price>
+        </food_item>
+        <food_item>
+            <name>Fresh juice</name>
+            <price>$6.00</price>
+        </food_item>
+        <food_item>
+            <name>Bottled water</name>
+            <price>$2.00</price>
+        </food_item>
+    </main_section>
+</menu_page>
