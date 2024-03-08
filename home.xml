@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xmlstyle.css"?>
+<coffee-shop>
+  <name>Bryan's Cafe</name>
+  <menu>
+    <about_page>Link to about page</about_page>
+    <menu_page>Link to about menu</menu_page>
+    <contact_page>Link to about contact</contact_page>
+  </menu>
+  <phone>(123) 456-7890</phone>
+  <hero>
+    <banner>
+      Everyone deserves a fresh coffee
+    </banner>
+  </hero>
+  <about-section>
+    About Us text here
+    <button>
+      Link to about page
+    </button>
+  </about-section>
+  <bryan-cafe-history>
+    Bryan's Cafe History text here
+  </bryan-cafe-history>
+  <menu-items>
+    <menu-table>
+      Menu items here
+    </menu-table>
+    <button>
+      Link to full menu
+    </button>
+  </menu-items>
+  <footer>
+    <footer-menu>
+    </footer-menu>
+    <name>Bryan's Cafe</name>
+    <menu>
+      <about_page>Link to about page</about_page>
+      <menu_page>Link to menu page</menu_page>
+      <contact_page>Link to contact page</contact_page>
+      <privacy-policy>Link to privacy policy page</privacy-policy>
+    </menu>
+    <phone>(123) 456-7890</phone>
+  </footer>
+</coffee-shop>
