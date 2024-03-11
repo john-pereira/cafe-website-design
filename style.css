@@ -273,7 +273,7 @@ header{
 }
 
 .banner__text{
-  margin-top: 10%!important;
+  /* margin-top: 10%!important; */
   /* border: 1px solid red; */
 }
 .banner__text p {
@@ -358,4 +358,9 @@ footer{
 footer a{
   color: #FFBF00;
   text-decoration: none;
+}
+
+.coffee-beans-background img {
+  max-width: 100%;
+  object-fit: fill;
 }
