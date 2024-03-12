@@ -57,10 +57,7 @@
         
     }
 
-    /** Banner **/
-    
-    .header__img img{
-        display: none;
+    .banner * {
     }
 
     .banner__text{
@@ -76,6 +73,11 @@
         align-items: center;
         justify-content: center;
     }
+    
+    .header__img img{
+        display: none;
+    }
+    
     .header__bottom img{
         display: block;
         max-width: 50%;
@@ -84,5 +86,13 @@
     .menu img{
         max-width: 100%;
     }
+
+}
+
+
+/** Banner **/
+@media only screen and (width <= 900px) {
+    
+
 
 }

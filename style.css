@@ -259,7 +259,8 @@ header{
 }
 
 /* Banner */
-.banner{
+.banner *{
+
 
 }
 .banner {
@@ -270,11 +271,22 @@ header{
   width: 100%;
   color: #fff;
   /* background-color: var(--primary-color); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner__text{
   /* margin-top: 10%!important; */
-  /* border: 1px solid red; */
+  /* position: absolute; */
+  /* top: 200px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 99;
+
 }
 .banner__text p {
   font-family: 'Big Shoulders Display';
@@ -299,10 +311,10 @@ header{
   /* color: #28190E; */
 }
 
-.header__bottom img{
+/* .header__bottom img{
   display: none;
 
-}
+} */
 
 .p-auto-width {
 }
@@ -310,7 +322,14 @@ header{
 
 .header__img img{ 
   position: absolute;
-  top: -15px;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 99%;
+}
+.header__img2 img{ 
+  position: absolute;
+  top: 0;
   right: 0;
   width: 35%;
   height: 99%;
@@ -322,17 +341,36 @@ header{
   flex-direction: column;
 }
 
+
+
 .about *{
+
 }
 
 .about{
-  margin-top: 5rem;
+  background-color: #FFBF00;
+  margin-top: 100px;
+
 }
 
 .about__img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.about__text img{
+  width: 300px;
+  height: 300px;
+}
+.menu{
+  background-color: #FFBF00;
+
+}
+
+.dishes{
+  background-color: #FFBF00;
+  margin-bottom: 300px;
 }
 
 .dishes img{
@@ -347,7 +385,18 @@ header{
   text-transform: uppercase;
 }
 
-#content *{
+.coffee-beans-background{
+  height: 400px;
+  overflow: hidden;
+}
+
+.coffee-beans-background img{
+
+}
+
+
+#content{
+  background-image: url("background-img.png");
 }
 
 footer{
