@@ -399,6 +399,17 @@ header{
   background-image: url("background-img.png");
 }
 
+footer .footer__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--main-font);
+}
+
+footer .footer__box:last-child {
+}
+
+
 footer{
   background: #28190E;
   color: #FFBF00;
@@ -407,6 +418,18 @@ footer{
 footer a{
   color: #FFBF00;
   text-decoration: none;
+}
+
+.footer__box .social-icons{
+  font-size: 20px;
+  color: #FFBF00;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.footer__box .social-icons ul{
+  display: inline;
+  width: 100%;
 }
 
 .coffee-beans-background img {
