@@ -99,8 +99,9 @@ header{
   padding: 0;
 }
 
-.logo{
-  
+#desktop-menu .logo{
+  margin-top: 15px;
+  margin-left: 15px;
 }
 #desktop-menu .nav-menu{
   display: flex;
@@ -407,6 +408,7 @@ footer .footer__box {
 }
 
 footer .footer__box:last-child {
+  flex-direction: column;
 }
 
 
