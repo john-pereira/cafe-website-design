@@ -100,8 +100,8 @@ header{
 }
 
 #desktop-menu .logo{
-  margin-top: 15px;
-  margin-left: 15px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 #desktop-menu .nav-menu{
   display: flex;
@@ -120,7 +120,6 @@ header{
 }
 
 #desktop-menu .nav-menu li{
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
 
@@ -139,15 +138,6 @@ header{
   text-decoration: underline;
 }
 
-#desktop-menu nav li{
-  /* margin: 0 15px; */
-}
-#desktop-menu nav li:first-child{
-  /* margin-left: 0; */
-}
-#desktop-menu nav li:last-child{
-  /* margin-right: 0; */
-}
 
 /** Mobile Menu  **/
 
@@ -280,13 +270,14 @@ header{
 
 .banner__text{
   /* margin-top: 10%!important; */
-  /* position: absolute; */
-  /* top: 200px */
+  /* position: fixed; */
+  top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
   z-index: 99;
+
 
 }
 .banner__text p {
@@ -312,11 +303,6 @@ header{
   /* color: #28190E; */
 }
 
-/* .header__bottom img{
-  display: none;
-
-} */
-
 .p-auto-width {
 }
 
@@ -330,10 +316,12 @@ header{
 }
 .header__img2 img{ 
   position: absolute;
+  /* position: fixed; */
   top: 0;
   right: 0;
   width: 35%;
   height: 99%;
+
 }
 
 #content{
@@ -400,6 +388,19 @@ header{
   background-image: url("background-img.png");
 }
 
+footer *{
+
+}
+
+footer{
+  background: #28190E;
+  color: #FFBF00;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 footer .footer__box {
   display: flex;
   justify-content: center;
@@ -407,19 +408,37 @@ footer .footer__box {
   font-family: var(--main-font);
 }
 
+footer .footer__box:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer .footer__box:first-child img {
+  
+}
+
+
+footer .footer__box:last-child *{
+
+
+}
 footer .footer__box:last-child {
   flex-direction: column;
+  
 }
 
 
-footer{
-  background: #28190E;
-  color: #FFBF00;
-}
+
 
 footer a{
   color: #FFBF00;
   text-decoration: none;
+}
+
+.fa-phone{
+
 }
 
 .footer__box .social-icons{
@@ -429,7 +448,7 @@ footer a{
   gap: 10px;
   flex-direction: row;
 }
-.footer__box .social-icons ul{
+.footer__box .social-icons span{
   display: inline;
   width: 100%;
 }
