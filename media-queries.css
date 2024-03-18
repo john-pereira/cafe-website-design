@@ -87,12 +87,20 @@
         max-width: 100%;
     }
 
+    
 }
 
 
 /** Banner **/
-@media only screen and (width <= 900px) {
+@media only screen and (width <= 600px) {
     
+    .banner__text{
+
+    }
+    .h1-secondary{
+        letter-spacing: 0;
+    }
+
 
 
 }
